@@ -49,7 +49,7 @@ Recall	0.89
 
 
 
-### 🧠 Full System Architecture
+###  Full System Architecture
 
 ```mermaid
 graph TD
