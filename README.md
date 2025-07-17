@@ -17,28 +17,28 @@ Dataset
 Source: Kaggle - Mental Health in Tech Survey
 Records: ~1,200  
 Target Variable: treatment (Yes/No)  
-Features Used  
-Age  
-Gender  
-Family History  
-Work Interference  
-Remote Work  
-Benefits  
-Anonymity  
-Wellness Program  
-Leave  
-Seek Help  
-Care Options  
-Self-Employed  
-Tech Company  
+    Features Used  :
+1.Age  
+2.Gender  
+3.Family History  
+4.Work Interference  
+5.Remote Work  
+6.Benefits  
+7.Anonymity  
+8.Wellness Program  
+9.Leave  
+10.Seek Help  
+11.Care Options  
+12.Self-Employed  
+13.Tech Company  
 
-Machine Learning Pipeline
-Data Cleaning & Label Encoding
-Feature Selection
-Train-Test Split (Stratified)
-SMOTE for Class Balance
-Model: Random Forest Classifier
-Hyperparameter Tuning: GridSearchCV
+Machine Learning Pipeline  
+Data Cleaning & Label Encoding  
+Feature Selection  
+Train-Test Split (Stratified)  
+SMOTE for Class Balance  
+Model: Random Forest Classifier   
+Hyperparameter Tuning: GridSearchCV  
 Final Accuracy: 83.5%  
 
 Results  
