@@ -1,5 +1,5 @@
 # Mental-Health-Treatment-Prediction
-Mental health awareness is a growing concern, especially in corporate and tech environments. This project uses machine learning to predict whether an individual will seek mental health treatment based on survey data. The solution includes:
+Mental health awareness is a growing concern, especially in corporate and tech environments. This project uses machine learning to predict whether an individual will seek mental health treatment based on survey data. The solution includes:  
 1.A machine learning model  
 2.A Streamlit web app for predictions  
 3.A Power BI dashboard for insights  
