@@ -49,10 +49,24 @@ Recall	0.89
 
 
 
+### 🧠 Full System Architecture
+
+```mermaid
 graph TD
-  A[User Input via Streamlit UI] --> B[Preprocessing Module]
-  B --> C[Trained Random Forest Model (.pkl)]
-  C --> D[Prediction Output]
-  D --> E[Display Results & Confidence Score]
-  C --> F[Export Predictions to CSV]
-  F --> G[Power BI Dashboard for Insights]
+    A[Survey Dataset (CSV)] --> B[Data Cleaning & Preprocessing]
+    B --> C[Label Encoding & Feature Selection]
+    C --> D[Train-Test Split]
+    D --> E[SMOTE - Oversampling Minority Class]
+    E --> F[Model Training: Random Forest]
+    F --> G[GridSearchCV - Hyperparameter Tuning]
+    G --> H[Best Trained Model (pkl)]
+    
+    H --> I1[Streamlit App]
+    I1 --> J1[User Input Form]
+    J1 --> K1[Real-time Prediction]
+    K1 --> L1[Display Prediction & Confidence]
+
+    H --> I2[Export Predictions as CSV]
+    I2 --> J2[Power BI Dashboard]
+    J2 --> K2[Interactive Visualization]
+```
