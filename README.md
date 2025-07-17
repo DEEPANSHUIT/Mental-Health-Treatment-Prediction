@@ -51,7 +51,7 @@ Recall	0.89
 
 ###  Full System Architecture
 
-### 🧠 Full System Architecture
+
 
 ```mermaid
 graph TD
@@ -61,15 +61,14 @@ graph TD
     D --> E[SMOTE Oversampling]
     E --> F[Random Forest Training]
     F --> G[GridSearch Tuning]
-    G --> H[Final Model (PKL)]
+    G --> H[Final Model Saved]
     
     H --> I1[Streamlit App]
-    I1 --> J1[User Input]
-    J1 --> K1[Predict Result]
-    K1 --> L1[Show Output]
-
-    H --> I2[Export CSV]
+    I1 --> J1[User Input Form]
+    J1 --> K1[Real-time Prediction]
+    K1 --> L1[Show Output to User]
+    
+    H --> I2[Prediction Export to CSV]
     I2 --> J2[Power BI Dashboard]
-    J2 --> K2[Visualize Results]
+    J2 --> K2[Data Visualizations]
 ```
-
